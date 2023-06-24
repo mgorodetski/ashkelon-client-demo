@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./Login.css";
 
-const url ="http://localhost:5000/api"
+const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
 
 export default function Login() {
   const userRef = useRef();
@@ -66,4 +66,3 @@ export default function Login() {
     </div>
   );
 }
-

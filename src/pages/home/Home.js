@@ -6,7 +6,7 @@ import Posts from "../../components/posts/Posts";
 import SideBar from "../../components/sidebar/SideBar";
 import axios from "axios";
 
-const url ="http://localhost:5000/api"
+const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
 
 
 export default function Home() {

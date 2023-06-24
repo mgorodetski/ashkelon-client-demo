@@ -9,13 +9,13 @@ export default function SinglePost() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://cult-center-api-d40078cd27ac.herokuapp.com/api/images/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [categories, setCategories] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
-  const url ="http://localhost:5000/api"
+  const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
 
   useEffect(() => {
     const getPost = async () => {

@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./SideBar.css";
 import ashLogo from "../../assets/ashqelonLogo.svg"
+import { API_URL } from "../../assets/const";
 
 export default function SideBar() {
-  const url = "https://cult-center-api-d40078cd27ac.herokuapp.com/api"
+  const url = API_URL;
 
   const [cats, setCats] = useState([]);
   useEffect(() => {

@@ -5,8 +5,10 @@ import Header from "../../components/header/Header";
 import Posts from "../../components/posts/Posts";
 import SideBar from "../../components/sidebar/SideBar";
 import axios from "axios";
+import { API_URL } from "../../assets/const";
 
-const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
+const url = API_URL;
+
 
 
 export default function Home() {

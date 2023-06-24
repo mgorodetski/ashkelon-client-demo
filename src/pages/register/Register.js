@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "./Register.css";
+import { API_URL } from "../../assets/const";
 
 export default function Register() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
-  const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
+  const url = API_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

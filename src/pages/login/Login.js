@@ -5,8 +5,9 @@ import { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./Login.css";
+import { API_URL } from "../../assets/const";
 
-const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
+const url = API_URL;
 
 export default function Login() {
   const userRef = useRef();

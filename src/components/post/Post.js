@@ -1,8 +1,9 @@
+import { API_URL } from "../../assets/const";
 import "./Post.css";
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
-  const PF = "https://cult-center-api-d40078cd27ac.herokuapp.com/images/";
+  const PF = `${API_URL}/images/`;
 
   return (
     <div className="post">

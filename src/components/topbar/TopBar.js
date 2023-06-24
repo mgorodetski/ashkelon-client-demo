@@ -4,9 +4,10 @@ import { Context } from "../../context/Context";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./TopBar.css";
+import { API_URL } from "../../assets/const";
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
-  const PF = "https://cult-center-api-d40078cd27ac.herokuapp.com/images/";
+  const PF = API_URL;
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });

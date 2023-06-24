@@ -3,6 +3,7 @@ import "./Write.css";
 import axios from "axios";
 import { Context } from "../../context/Context";
 import parse from "html-react-parser";
+import { API_URL } from "../../assets/const";
 
 export default function Write() {
   const [title, setTitle] = useState("");
@@ -11,7 +12,7 @@ export default function Write() {
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
   const parse = require("html-react-parser");
-  const url ="https://cult-center-api-d40078cd27ac.herokuapp.com/api"
+  const url = API_URL;
 
 
   const handleSubmit = async (e) => {

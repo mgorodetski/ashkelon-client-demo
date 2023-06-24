@@ -3,6 +3,7 @@ import SideBar from "../../components/sidebar/SideBar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
 import axios from "axios";
+import { API_URL } from "../../assets/const";
 
 export default function Settings() {
   const [file, setFile] = useState(null);
@@ -12,7 +13,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   const { user, dispatch } = useContext(Context);
-  const PF = "https://cult-center-api-d40078cd27ac.herokuapp.com/api/images/";
+  const PF = `${API_URL}/images/`;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

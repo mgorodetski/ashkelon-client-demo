@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57573a47.css",
+    "main.js": "/static/js/main.5e5c9930.js",
+    "static/media/ashqelonLogo.svg": "/static/media/ashqelonLogo.5962d1b362f916852238293fd781b25e.svg",
+    "index.html": "/index.html",
+    "main.57573a47.css.map": "/static/css/main.57573a47.css.map",
+    "main.5e5c9930.js.map": "/static/js/main.5e5c9930.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57573a47.css",
+    "static/js/main.5e5c9930.js"
+  ]
+}

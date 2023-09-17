@@ -13,6 +13,7 @@
 
 .headerTitleLg {
   position: absolute;
+  text-align: center;
   padding: 10% 5%;
   font-size: 60px;
   color: rgb(254, 254, 254);

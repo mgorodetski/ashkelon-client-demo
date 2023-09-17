@@ -27,6 +27,9 @@ export default function Post({ post }) {
         </Link>
       )}
       <div className={styles.postInfo}>
+         <div className={styles.postCats}>
+          <span className={styles.postCat}>{post.categories}</span>
+        </div>
         <div className={styles.postTitle}>
           <Link to={`/post/${post._id}`} className={styles.link}>
             <span>{post.title}</span>

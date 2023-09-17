@@ -23,15 +23,10 @@ export default function SideBar() {
         <span className={styles.sidebarTitle}>О ЦЕНТРЕ</span>
         <img className={styles.sidebarLogo} src={ashLogo} alt="logoImg" />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in felis vitae sem fermentum pharetra. Mauris
-          sagittis lacus nec risus congue, quis malesuada tellus semper. In commodo turpis nec nulla consequat, vitae
-          commodo nisl posuere. Donec accumsan augue ac justo facilisis, id volutpat dui volutpat. Cras faucibus elementum
-          lacus, id tincidunt felis venenatis a. Fusce dignissim lorem ac mauris vestibulum, sit amet accumsan risus
-          ullamcorper. Etiam accumsan ac lacus vel elementum. Quisque sed leo pellentesque, consectetur nisl non, gravida
-          quam. Nulla viverra ligula a euismod aliquam.
+        Мы приглашаем всех желающих на наши мероприятия,где их ждёт не только теплая и дружеская атмосфера,но и соприкосновение с миром искусства и литературы,а также множество удивительных открытий.
         </p>
       </div>
-      <div className={styles.sidebarItem}>
+      {/* <div className={styles.sidebarItem}>
         <span className={styles.sidebarTitle}>МЫ В СОЦСЕТЯХ</span>
         <div className={styles.sidebarSocial}>
           <i className={`${styles.sidebarIcon} fab fa-facebook-square`} style={{ color: "#3b5998" }}></i>
@@ -39,7 +34,7 @@ export default function SideBar() {
           <i className={`${styles.sidebarIcon} fab fa-pinterest-square`} style={{ color: "#E60023" }}></i>
           <i className={`${styles.sidebarIcon} fab fa-instagram-square`} style={{ color: "#e95950" }}></i>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

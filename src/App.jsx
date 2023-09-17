@@ -22,10 +22,10 @@ function App() {
       <TopBar />
       <Switch>
         <Route exact path="/" component={Home}></Route>
-        <Route path="/register">{user ? <Home /> : <Register />}</Route>
-        <Route path="/login">{user ? <Home /> : <Login />}</Route>
-        <Route path="/write">{user ? <Write /> : <Register />}</Route>
-        <Route path="/settings">{user ? <Settings /> : <Register />}</Route>
+        {/* <Route path="/register">{user ? <Home /> : <Register />}</Route> */}
+        {/* <Route path="/login">{user ? <Home /> : <Login />}</Route> */}
+        {/* <Route path="/write">{user ? <Write /> : <Register />}</Route> */}
+        {/* <Route path="/settings">{user ? <Settings /> : <Register />}</Route> */}
         <Route path="/post/:postId" component={Single}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/museum" component={Museum}></Route>

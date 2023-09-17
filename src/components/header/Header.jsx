@@ -7,11 +7,10 @@ export default function Header() {
     <div className={styles.header}>
       <div className={styles.headerTitles}>
         <span className={styles.headerTitleLg}>
-          Амута&nbsp;"Аврора"&nbsp;г.&nbsp;Ашкелон
+          Амута&nbsp;"Аврора"<br/>
+          Русский культурный центр г. Ашкелон
           </span>
-        <span className={styles.headerTitleSm}>
-          "Русский культурный центр г. Ашкелон"
-        </span>
+        
         <img
           className={styles.headerImg}
           src="https://live.staticflickr.com/3047/2935905040_800b33926a_b.jpg"

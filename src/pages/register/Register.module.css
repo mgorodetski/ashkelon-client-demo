@@ -1,0 +1,57 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/1470167/pexels-photo-1470167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  color: black;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.registerLabel {
+  margin: 10px 0;
+  color: black;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.registerButton {
+  background-color: rgb(243, 125, 145);
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.registerLoginButton {
+  background-color: rgb(80, 74, 74);
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 189px;
+  border-radius: 10px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+{
+    "center": [34.585541, 31.667663],
+    "geojsonObject": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "kind": "county",
+              "name": "Wyandotte",
+              "state": "KS"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [
+                [
+                  [
+                    [34.573235, 31.703624],
+                    [34.594274, 31.701470],
+                    [34.606505, 31.680245],
+                    [34.589553, 31.680765],
+                    [34.591270, 31.670274],
+                    [34.593974, 31.663234],
+                    [34.590197, 31.654622],
+                    [34.580841, 31.639972],
+                    [34.562838, 31.631431],
+                    [34.530845, 31.644813]
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      
+    "kansasCityLonLat": [34.586585, 31.661754],
+    
+    "markerImage24" : "https://cdn2.iconfinder.com/data/icons/social-media-and-payment/64/-47-24.png",
+    "markerImage32" : "https://cdn2.iconfinder.com/data/icons/social-media-and-payment/64/-47-32.png",
+    "markerImage64" : "https://cdn2.iconfinder.com/data/icons/social-media-and-payment/64/-47-64.png"
+}

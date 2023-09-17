@@ -1,0 +1,69 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h1 {
+  background-color: #ffd1b9;
+  width: 50%;
+  margin: 50px;
+  font-size: 55px;
+  letter-spacing: 3px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.aboutDesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutDesc > p {
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 50%;
+  color: #666;
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.aboutDesc > img {
+  margin: 20px 120px 0 0;
+}
+
+.mapWrapper {
+  flex-shrink: 1;
+  width: calc(100% - 380px);
+  height: 386px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .about h1 {
+    font-size: 40px;
+    margin: 20px;
+    width: 90%;
+  }
+
+  .aboutDesc {
+    flex-direction: column;
+  }
+
+  .aboutDesc > p {
+    margin: 20px;
+    width: 100%;
+  }
+
+  .aboutDesc > img {
+    margin: 20px auto;
+    display: block;
+  }
+}
